@@ -21,8 +21,6 @@ public class Spawner : MonoBehaviour {
 
             Instantiate(cubePrefab, new Vector3(Random.Range(-5, 5), Random.Range(-5, 5), Random.Range(-5, 5)), cubePrefab.transform.rotation);
         }
-         private void OnCollisionStay(Collision other) {
-             
-         }
+         ciaone
     }
 }
